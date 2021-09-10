@@ -1,0 +1,33 @@
+  <!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+		<link rel="shortcut icon"  href="../logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder by Hipolit Płatek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Zadania</header>
+    <div class="inputField">
+      <input type="text" placeholder="Dodaj zadanie.">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>Masz <span class="pendingTasks"></span> zadań.</span>
+      <button>Wyczyść Wszystkie</button>
+    </div>
+    &copy; <a class='credit' href="https://kuczis.cf" target="_blank">Kuczis</a>
+  </div>
+  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
